@@ -1,0 +1,24 @@
+///Introduccion de la clase///
+
+Algortimo: Serie de pasos (instrucciones) finitos para resolver un problema 
+(es decir, debe tener un objetivo).
+
+Pseudocódigo: instrucciones en un lenguaje natural.
+
+Caso 911- En canvas presentación
+
+///Actividad en clase//
+Escribe un algoritmo en pseudocódigo que perimita calcular el area de un triágulo.
+
+1. Leer base y altura
+2. Calcular área, A= b*h/2
+3. Imprimir el área "A"
+
+Escribe en pseudocódigo un algoritmo que permita realizar divisiones válidas.
+
+1. Leer numerador (num) y denominador (den)
+2. Si el denominador es cero
+    2.1. Pide nuevamente el denominador
+    2.2. Regresar al paso 2 //Ciclo while//
+3. En caso contrario, realizar la división div = num/den
+4. Imprime el valor de "div"
