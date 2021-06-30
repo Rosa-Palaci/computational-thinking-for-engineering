@@ -1,0 +1,26 @@
+//comandos para python//
+3**2
+9
+
+16**(1/2)
+4
+
+7**(5/3)
+25.61539970160804
+
+8%3
+2
+
+8%5
+3
+
+8/5
+1.6
+
+8//5
+1
+
+//nota
+
+input: regresa valores de string SIEMPRE (valor tipo 'str')
+float: el valor tipo numero
