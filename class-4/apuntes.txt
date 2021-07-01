@@ -1,0 +1,13 @@
+///Estudio Previo/// 
+¿Qué es un valor booleano?
+Son aquellos que pueden tener verdadero y false
+
+Operadores de comparación
+>
+<
+>=
+<=
+== (si algo es igual a otra cosa)
+!= (distinto a)
+
+//////////
