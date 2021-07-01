@@ -1,11 +1,16 @@
+#Ejercicio 4 en clase 4 - 01/07/21
+#Rosa Vanessa Palacios Beltran
+#A01652612
+#Como se maneja el and y or
+
 a = 4
 b = 10
 c = 5
 
-if a == 40 or b == 10 or c == 5:
-    print('M1')
+if a == 4 and b == 100 or c == 5:
+    print('True')
 else:
-    print('M2')
+    print('False')
 
 #True print M1
 #False print M2
