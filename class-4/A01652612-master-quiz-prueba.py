@@ -2,7 +2,7 @@ a = 4
 b = 10
 c = 5
 
-if a == 4 and b == 10 and c == 5:
+if a == 40 or b == 10 or c == 5:
     print('M1')
 else:
     print('M2')
