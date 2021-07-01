@@ -28,7 +28,9 @@ edad = int(input('Teclea tu edad: '))
 
 if edad >= 18:
     print(f'Hola {nombre}, eres mayor de edad')
+    print('Bienvenido')
 else:
     print(f'Hola {nombre}, eres menor de edad')
+    print('No puede pasar')
 
 print('See you later!')
