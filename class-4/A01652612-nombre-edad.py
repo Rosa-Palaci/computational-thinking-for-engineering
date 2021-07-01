@@ -21,10 +21,14 @@
 #    print(f'Hola {nombre}, eres mayor de edad')
 #    print('See you later')
 
+# Caso True un camino y False camino diferente que al final se unen
+
 nombre = input('Teclea tu nombre: ')
 edad = int(input('Teclea tu edad: '))
 
 if edad >= 18:
     print(f'Hola {nombre}, eres mayor de edad')
+else:
+    print(f'Hola {nombre}, eres menor de edad')
 
-print('See you later')
+print('See you later!')
