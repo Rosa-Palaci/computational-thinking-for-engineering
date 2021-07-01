@@ -2,7 +2,7 @@
 #Rosa Vanessa Palacios Beltran
 #A01652612
 
-#Realiza un program que verifique el valor
+#Realiza un programa que verifique el valor
 #de dos variables 'x' y 'y'
 #Si 'x' es 2 y 'y' es 3, imprime 'Mensaje 1'
 #En caso contrario, imprime 'Mensaje 2'
