@@ -34,3 +34,6 @@ IF condición: instrucciones
 
 *Un float ocupa más memoria que un int, va a pesar mas en la memoria de la computadora
 un float ocupa por ejemplo 8 bytes, mientras que un int (entero) 4 bytes*
+
+Caso de if y elif con mas condiciones con a la fuerza y 
+el else no lleva porque si no se cumple ninguna es la opcion por defecto
