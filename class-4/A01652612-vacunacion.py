@@ -13,14 +13,18 @@
 usuario = str(input('Teclea tu nombre: '))
 edad = int(input('Teclea tu edad: '))
 
-if edad >= 60:
+if 60 <= edad <= 130:
     print('Te toca vacunarte el 20 de julio')
+    print('Dirígase a la casilla 1')
 elif 40 <= edad <= 59:
     print('Te toca vacunarte el 28 de julio')
+    print('Dirígase a la casilla 2')
 elif 18 <= edad <= 39:
     print('Te toca vacunarte el 5 de agosto')
+    print('Dirígase a la casilla 3')
 elif 12 <= edad <= 17:
     print('Te toca vacunarte el 10 de agosto')
+    print('Dirígase a la casilla 4')
 else:
     print('Tu edad no cumple los requisitos')
 
