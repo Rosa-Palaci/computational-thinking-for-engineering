@@ -40,3 +40,8 @@ el else no lleva porque si no se cumple ninguna es la opcion por defecto
 
 +*Import random 
 random.randint()+*(investigación extra)
+
+or es para comparar varias cosas a la vez varia comprobaciones a la vez
+and y or es lo mismo pero trabajan de forma diferente
+juntar opciones
+
