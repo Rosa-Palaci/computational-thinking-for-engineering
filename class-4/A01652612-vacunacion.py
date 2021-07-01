@@ -27,6 +27,7 @@ elif 12 <= edad <= 17:
     num_casilla = '4'
 else:
     print('Tu edad no cumple los requisitos')
+    quit() #Termina el programa de forma abrupta
 
 print(f'Te toca vacunarte el {fecha}')
 print(f'Dirígase a la casilla {num_casilla}')
