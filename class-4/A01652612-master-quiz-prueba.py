@@ -7,7 +7,7 @@ a = 4
 b = 10
 c = 5
 
-if (a == 4 or b == 100) and c == 3:
+if (a == 4 or b == 10) and c == 3:
     print('True')
 else:
     print('False')
