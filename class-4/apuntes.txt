@@ -23,7 +23,6 @@ Operadores de comparación
 #5 != 6
 #
 
-
 Programas que tomen decisiones
 
 Estructura IF {
@@ -45,3 +44,6 @@ or es para comparar varias cosas a la vez varia comprobaciones a la vez
 and y or es lo mismo pero trabajan de forma diferente
 juntar opciones
 
+TAREA 
+DE ESTATUS DE DECISION (7 capturas)
+OPERACIONES ARITMETICAS (Actividad - Programas que usan estatutos de decisión con operaciones aritméticas)
