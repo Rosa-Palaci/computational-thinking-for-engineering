@@ -2,12 +2,35 @@
 ¿Qué es un valor booleano?
 Son aquellos que pueden tener verdadero y false
 
+Qué operadores de comparación existen en Python.
+
+Qué operadores booleanos tienes disponibles.
+
+///Apunte de clase///
+
 Operadores de comparación
->
-<
->=
-<=
+> (mayor que)
+< (menor que)
+>= (mayor o igual)
+<= (menor que)
 == (si algo es igual a otra cosa)
 != (distinto a)
 
-//////////
+///En python///
+
+#1 > 2
+#False
+#5 != 6
+#
+
+
+Programas que tomen decisiones
+
+Estructura IF {
+pregunta->es True ->++++ -> done
+pregunta->es False -> done}
+
+IF condición: instrucciones
+
+*Un float ocupa más memoria que un int, va a pesar mas en la memoria de la computadora
+un float ocupa por ejemplo 8 bytes, mientras que un int (entero) 4 bytes*
