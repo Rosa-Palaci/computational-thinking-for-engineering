@@ -14,8 +14,12 @@ import math
 
 print('Los puntos deben ir en términos (x,y)')
 
-x1 = float(input("punto inicial de x: "))
-y1 = float(input("punto inicial de y: "))
+#x1 = float(input("punto inicial de x: "))
+#y1 = float(input("punto inicial de y: "))
+
+p1 = input('Punto 1: ')
+x1 = float(p1[1])
+y1 = float(p1[3])
 x2 = float(input("punto final de x: "))
 y2 = float(input("punto final de y: "))
 
