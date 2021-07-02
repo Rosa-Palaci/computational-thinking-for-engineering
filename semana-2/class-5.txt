@@ -1,0 +1,45 @@
+Pendientes
+- Checar distancia.py
+- Plantear situacion problema
+- Ordenar apuntes (temario) semana 2:
+    -clase5:
+        Qué es el estatuto For 
+        Qué hace la función range
+        Cómo se usa la función range
+    -clase6:
+        Actividad en clase - Estatuto for y los rangos - 1
+
+    -clase7:
+        Actividad en clase - Estatuto for y los rangos - 2
+
+        Qué es el estatuto while
+        Cómo se usa en Python
+        Qué es un ciclo infinito
+    -clase8:
+        Actividad en clase - Estatuto while - 1
+
+        Reflexión del aprendizaje del tema: Programa con estatutos de repetición con for y while
+        +Actividad - Programas con estatutos de repetición - for y while
+
+
+
+- Ordenar apuntes (temario) semana 1:
+    -clase1:
+        Shell interactivo de Python
+        Operaciones aritméticas
+        Tipos de datos existentes
+        Variables
+        Reglas para escribir los nombres de las variables
+        Mostrar un mensaje en pantalla
+        Tomar un dato del teclado 
+        Comentarios
+    -clase2:
+        presentacion caso 911: https://view.genial.ly/5e344d472a5bd44c98bca999/presentation-el-colapso-del-911
+
+    -clase3:
+        Qué es un valor booleano.
+        Qué operadores de comparación existen en Python.
+        Qué operadores booleanos tienes disponibles.
+
+    -clase4:
+        !!!Asesoria de distancia!!!

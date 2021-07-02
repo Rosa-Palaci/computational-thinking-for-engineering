@@ -1,0 +1,5 @@
+Actividad en clase - Estatuto for y los rangos - 2
+
+        Qué es el estatuto while
+        Cómo se usa en Python
+        Qué es un ciclo infinito

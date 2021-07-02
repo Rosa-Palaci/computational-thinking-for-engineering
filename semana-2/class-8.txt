@@ -1,0 +1,6 @@
+Actividad en clase - Estatuto while - 1
+
+        Reflexión del aprendizaje del tema: Programa con estatutos de repetición con for y while
+        +Actividad - Programas con estatutos de repetición - for y while
+
+        !!!
