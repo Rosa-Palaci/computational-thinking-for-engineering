@@ -19,9 +19,9 @@ y1 = float(input("punto inicial de y: "))
 x2 = float(input("punto final de x: "))
 y2 = float(input("punto final de y: "))
 
-print(f'Punto inicial:( {x1}, {y1})')
-print(f'Punto final:( {x2}, {y2})')
+print(f'Punto inicial:( {x1}, {y1} )')
+print(f'Punto final:( {x2}, {y2} )')
 
 dist = math.sqrt( ( (x2 - x1)**2 ) + ( (y2-y1)**2 ) )
 
-print(f'La distancia entre los puntos es de: {dist}')
+print(f'La distancia entre los puntos es de: {dist:.2f}')
