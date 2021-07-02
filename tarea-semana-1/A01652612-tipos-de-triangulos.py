@@ -43,13 +43,3 @@ else:
     quit()
 
 print(f'El tipo de triángulo es {tipo}')
-
-   
-
-#caso1: X = 3, Y = 3, Z = 3
-#caso2: X = 1, Y = 2, Z = 2
-#caso3: X = 2, Y = 1, Z = 2
-#caso4: X  = 2, Y = 2, Z = 1
-#caso5: X = 7, Y = 5, Z = 10
-#caso6: X = 10, Y = 7, Z = 5
-#caso7: X = 1, Y = 2, Z = 3 
