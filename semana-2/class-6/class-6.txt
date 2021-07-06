@@ -135,3 +135,21 @@ Qué hace la función range
                         print(i,'x',n,'=',resultado)        
 
  Ahora me queda claro Cómo se usa la función range
+
+ ////Apunte clase////
+ For : lo vas a utilizar cuando conoces la cantidad de veces que se va a repetir el ciclo
+
+ while : cuando no conoces de antemano la cantidad de veces que se va a repetir el ciclo
+
+ #Imprimir el mensaje 'Hola Mundo' 10 veces
+ for veces in range(10):
+     print('Hola Mundo')
+
+max_veces in range(max_veces):
+        print('Hola Mundo')
+
+        /n salto de linea
+
+
+for veces in range(5):
+     print(f'Hola Mundo veces = {veces}')
