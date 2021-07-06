@@ -153,3 +153,7 @@ max_veces in range(max_veces):
 
 for veces in range(5):
      print(f'Hola Mundo veces = {veces}')
+
+
+variable iteradora que recorre los numeros ejemplo aneterio 
+la varible iterable es veces
