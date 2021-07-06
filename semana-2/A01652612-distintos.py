@@ -4,13 +4,39 @@
 
 #Ejercicio # 1
 
-#Escribe un programa que ordene en forma ascendente 
-# tres números enteros distinto a, b y c. (No 
-# utilices la función incorporada de Python sort (),
-# o max() o min(), etc.) 
+a = int(input('Ingresa tu primer número: '))
+b = int(input('Ingresa tu segundo número: '))
+c = int(input('Ingresa tu tercer número: '))
 
-#Los tress valores son proporcionados por el usuario; 
-# el programa deberá desplegar los tres números 
-# ordenados de menor a mayor.
+if((a <= b) and (a <= c)):
 
+    menor = a
 
+    if(b <= c):
+        medio = b
+        mayor = c
+    else:
+        medio = c
+        mayor = b
+
+elif((b <= a) and (b < c)):
+
+    menor = b
+
+    if(a <= c):
+        medio = a
+        mayor = c
+    else:
+        medio = c
+        mayor = a
+else:
+    menor = c
+
+    if(a <= b):
+        medio = a
+        mayor = b
+    else:
+        medio = b
+        mayor = a
+
+print(str(menor), str(medio), str(mayor))
