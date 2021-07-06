@@ -8,6 +8,7 @@ a = int(input('Ingresa tu primer número: '))
 b = int(input('Ingresa tu segundo número: '))
 c = int(input('Ingresa tu tercer número: '))
 
+
 if((a <= b) and (a <= c)):
 
     menor = a
@@ -39,4 +40,4 @@ else:
         medio = b
         mayor = a
 
-print(str(menor), str(medio), str(mayor))
+print(f'Ordenados de menor a mayor: {str(menor)}, {str(medio)}, {str(mayor)}')
