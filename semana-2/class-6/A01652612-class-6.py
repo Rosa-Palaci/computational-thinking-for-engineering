@@ -6,22 +6,34 @@
 
 import random
 
-'''a = int(input('Número a: '))
+'''
+a = int(input('Número a: '))
 b = int(input('Número b: '))
-c = int(input('Número c: '))'''
+c = int(input('Número c: '))
+'''
 
+'''
 a = random.radint(0,20)
 b = random.radint(0,20)
 c = random.radint(0,20)
+'''
+
+a = 10
+b = 2
+c = 5
 
 print(f'Los númros sin ordenar son: {a}, {b} y {c}\n')
 
 
-if a > b and a > c:
-    mayor = a
-    if b > c:
-        medio = b
+if a > b:
+    if a > c:
+        mayor = a
+    if b > c:  
+        medio = b  
         menor = c
+    else: 
+        medio = c
+        menor = b
     else: # significa que c > b
         medio = c
         menor = b
