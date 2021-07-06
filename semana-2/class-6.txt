@@ -1,2 +1,137 @@
         Actividad en clase - Estatuto for y los rangos - 1
-Checar class-8.txt
+
+Qué es el estatuto For 
+        Bucle For es una estructura de control que repite un bloque de instrucciones cierta cantidad de veces
+        *¿1. Que se inicialize una variable
+        2. Una condicion
+        3. Como va ir creciendo*?
+
+        Ejemplo:
+                >for x in []:
+                x(variable)
+                [](rango algo que se recorre)
+                >for x in range(0,5):
+                        print("Hola el número de X es: ", x)
+
+                >for x in "Hola":
+                        print(x)
+                        H
+                        o
+                        l
+                        a
+                FOR un ciclo que se repite un número de una cosa
+
+                Estructura básico
+                for i  in range(5):
+                 print(i)
+                 0
+                 1
+                 2
+                 3
+                 4
+                 for i  in range(5,10):
+                 print(i)
+                 5
+                 6
+                 7
+                 8
+                 9
+                 for i  in range(5,10,2):
+                 print(i)
+                 5
+                 7
+                 9
+
+                usando end
+                 for i  in range(5,12,2):
+                 print(i, end=':')
+                 5:7:8:11:
+
+                 *Durante 
+                   i veces
+                   condiciones
+                   acción 
+                   ---> Durante*
+
+                for - ciclo que se repite n cantidad de veces
+                i,x , etc - variable
+                range (2,13,5)- rango
+                (2) - Inicio del contador
+                (13) - Final del contador NO LO INCLUYE
+                (5) - Tamaño del incremento
+
+             CASOS
+                 range(1) - número de repeticiones
+                 range(1,2) - 1-inicio 2-Final pero lo excluye
+                 range(1,2,3) - 1-inicio 2-Final pero lo excluye 3-Define la  cantidad que se incrementa
+
+        for variable in elemento iterable(lista, cadena, range,etc.):
+          sentencia1
+          sentencia2
+          sentencia3
+
+        Es una estructura de control que permite repetir sentencias (bloque de instrucciones) un número determinado de veces
+
+Qué hace la función range
+        Usar la fución range nos permitirá controlar 
+        el número de ciclos o iteraciones en un bucle for
+            for variable in range(n):
+                cuerpo del bucle
+
+        Ejemplo:
+        n = 5
+         for i in range(n):
+                print('Hola')
+        Hola
+        Hola
+        Hola
+        Hola
+        Hola
+
+        n = 5
+         for i in range(n):
+                print(i,'Hola')
+        0 Hola
+        1 Hola
+        2 Hola
+        3 Hola
+        4 Hola
+        Lo que paso fue que i fue tomando el valor 
+        de 0-4 por que el rango o intervalo va de [0,5)
+        no incluye el 5
+        INICIO
+        i < n 
+        False
+        True
+        False--> Final
+        True --> BLOQUE--> i < n (ciclo)
+        i menor a n
+
+        range(inicio,fin)
+        range[2,8)
+        range(inicio, fin, salto)
+        range[2,8,2)
+
+        #Presentar la tabla de multiplicar de número ingresado por el usuario
+        0x2=0
+        1x2=2
+        ...
+        9x2=18
+
+        2 es constante 
+        0-9 iteracion rango
+
+        n = int(input('ingrese un número: '))
+        for i in range(10):
+                resultado = i*n
+                print(i,'x',n,'=',resultado)
+
+        para el caso de todas la tabla
+        
+        for n in range(1,10):
+        print('----Tabla' +str(n)+'---'))
+                for i in range(10):
+                        resultado = i*n
+                        print(i,'x',n,'=',resultado)        
+
+ Ahora me queda claro Cómo se usa la función range
