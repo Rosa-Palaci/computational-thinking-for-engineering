@@ -9,7 +9,7 @@ Escribe un programa que lea un número entero positivo n
  decrementa de uno en uno hasta llegar a 1:
 # 1, 2, ... n, n-1, n-2 ... 1
 '''
-n = int(input('Digite un número entero pisitivo: '))
+n = int(input('Digite un número entero positivo: '))
 valorInicial = 1
 
 print(f'Lista de ({valorInicial} a {n}) de uno en uno')
@@ -26,4 +26,4 @@ if n >= valorInicial:
         if listaDecrece == valorInicial:
             print(listaDecrece, end='\n')
         else:
-            print(listaDecrece, end = ', ') #18 lineas
+            print(listaDecrece, end = ', ') #18 lineas de código funcional
