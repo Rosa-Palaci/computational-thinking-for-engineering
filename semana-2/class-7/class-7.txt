@@ -23,3 +23,61 @@ for num in range(4,41):
 
 \: salto de linea
 
+#imprimir los numeros del 4 al 40, excepto el 7.
+
+for num in range(4,41):
+    if num == 7:
+        continue
+
+    print(num, end = ' ')
+
+###
+print('\n=======================')
+num = 4
+while num <= 40:
+    if num == 7:
+        continue
+    print(num, end = ' ')
+    num = num + 1
+
+###
+
+$$$
+for num in range(4,41):
+    if num == 7:
+        continue
+
+    print(num, end = ' ')
+
+print('\n=======================')
+num = 3
+while num <= 40:
+    num = num + 1
+    if num == 7:
+        continue 
+    print(num, end = ' ')
+$$$
+
+@@@
+#imprimir los numeros del 4 al 40, excepto el 7.
+
+for num in range(4,41):
+    if num == 7:
+        continue
+
+    print(num, end = ' ')
+
+print('\n=======================')
+num = 3
+while num <= 40:
+    num = num + 1
+    if num == 7:
+        continue 
+    
+    print(num, end = ' ')
+@@@
+
+¬¬¬
+
+¬¬¬
+
