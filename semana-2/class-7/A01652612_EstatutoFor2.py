@@ -12,6 +12,15 @@
 # promedio de todos los números.
 
 
+captura = float(input('Ingrese los números para promediar:'))
+
+numsProm = float(input('Ingrese los números para promediar:'))
+
+nums = int
+
+for captura in range(nums):
+    nums = int(input('Ingrese la cantidad de números que quiera promediar:'))
+
 
 
 
