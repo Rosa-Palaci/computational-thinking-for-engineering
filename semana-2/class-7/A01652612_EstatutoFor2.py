@@ -2,26 +2,18 @@
 #Rosa Vanessa Palacios Beltran
 #A01652612
 
-#Instrucciones 
 # Ejercicio # 1
-#Muestra el promedio de todos los números capturados 
-# por el usuario. Primero, pregunta por la cantidad 
-# de números que el usuario desea capturar y luego 
-# pregunta por cada uno de los números y después de 
-# por todos los números; despliega en pantalla el 
-# promedio de todos los números.
 
+cant_num = int(input('¿Cuántos números deseas ingresar?: '))
+suma = 0
+for veces in range(cant_num):
+    num = float(input('Introduce un número: '))
+    suma = suma + num
 
-captura = float(input('Ingrese los números para promediar:'))
+#print(suma)
+promedio = suma/cant_num
 
-numsProm = float(input('Ingrese los números para promediar:'))
-
-nums = int
-
-for captura in range(nums):
-    nums = int(input('Ingrese la cantidad de números que quiera promediar:'))
-
-
+print(f'El promedio de los números es {promedio}')
 
 
 #Ejercicio # 2
