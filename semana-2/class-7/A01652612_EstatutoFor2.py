@@ -2,7 +2,7 @@
 #Rosa Vanessa Palacios Beltran
 #A01652612
 
-# Ejercicio # 1 - proemdio
+# Ejercicio # 1 - promedio
 
 cant_num = int(input('¿Cuántos números deseas ingresar?: '))
 suma = 0
