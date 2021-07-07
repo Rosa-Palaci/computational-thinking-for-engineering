@@ -1,3 +1,0 @@
-Qué es el estatuto while
-Cómo se usa en Python
-Qué es un ciclo infinito
