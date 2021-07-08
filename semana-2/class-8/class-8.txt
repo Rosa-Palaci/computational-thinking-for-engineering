@@ -4,3 +4,92 @@ Actividad en clase - Estatuto while - 1
         +Actividad - Programas con estatutos de repetición - for y while
 
         !!!
+
+1···
+
+···1
+
+2···
+        #Formula una pregunta de opcion múltiple al usuario.
+        #Mientras la respuesta sea incorrecta, sigue haciendo la misma pregunta.
+
+        print('¿Quién escribió el libro de Azteca?')
+        print('a)Crevantes \tb)Stepshen King \tc)Gary Jennings \td)Octavio Paz')
+        resp = input('Teclea tu respuesta: ')
+        if resp == 'c':
+        print('Respuesta correcta')
+        else:
+        print('Respuesta incorrecta')
+···2
+
+3···
+#Formula una pregunta de opcion múltiple al usuario.
+#Mientras la respuesta sea incorrecta, sigue haciendo la misma pregunta.
+
+print('¿Quién escribió el libro de Azteca?')
+print('a)Crevantes \tb)Stepshen King \tc)Gary Jennings \td)Octavio Paz')
+resp = input('Teclea tu respuesta: ')
+
+while resp != 'c':
+    if resp != 'c':
+        resp = input('Repsuesta incorrecta, vuelve a intentarlo: ')
+
+    if resp != 'c':
+        print('Respuesta correcta')
+···3
+
+4···
+
+#Formula una pregunta de opcion múltiple al usuario.
+#Mientras la respuesta sea incorrecta, sigue haciendo la misma pregunta.
+
+print('¿Quién escribió el libro de Azteca?')
+print('a)Crevantes \tb)Stepshen King \tc)Gary Jennings \td)Octavio Paz')
+resp = input('Teclea tu respuesta: ')
+
+while resp != 'c':
+    if resp != 'c':
+        resp = input('Repsuesta incorrecta, vuelve a intentarlo: ')
+
+print('Respuesta correcta')
+
+···4
+
+5···
+
+#Formula una pregunta de opcion múltiple al usuario.
+#Mientras la respuesta sea incorrecta, sigue haciendo la misma pregunta.
+
+print('¿Quién escribió el libro de Azteca?')
+print('a)Crevantes \tb)Stepshen King \tc)Gary Jennings \td)Octavio Paz')
+resp = input('Teclea tu respuesta: ')
+
+if resp != 'c':
+    print('Respuesta correcta')
+    quit()
+else:
+    while resp != 'c':
+        resp = input('Repsuesta incorrecta, vuelve a intentarlo: ')
+
+print('Respuesta correcta')
+
+···5
+
+
+6···
+
+···6
+
+7···
+
+···7
+
+8···
+
+···8
+
+9···
+
+···9
+
+
