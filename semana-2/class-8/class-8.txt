@@ -77,7 +77,20 @@ print('Respuesta correcta')
 
 
 6···
+#Formula una pregunta de opcion múltiple al usuario.
+#Mientras la respuesta sea incorrecta, sigue haciendo la misma pregunta.
 
+print('¿Quién escribió el libro de Azteca?')
+print('a)Crevantes \tb)Stepshen King \tc)Gary Jennings \td)Octavio Paz')
+resp = input('Teclea tu respuesta: ')
+
+intentos = 0
+while intentos < 3:
+    if resp != 'c':
+        resp = input('Repsuesta incorrecta, vuelve a intentarlo: ')
+        intentos = intentos + 1
+
+print('Respuesta correcta')
 ···6
 
 7···
