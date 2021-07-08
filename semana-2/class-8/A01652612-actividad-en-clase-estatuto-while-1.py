@@ -4,6 +4,18 @@
 
 #Instrucciones
 
+# Ejercicio 1 
+# ¿Qué aparece en la pantalla si se ejecuta el siguiente código de Python?:
+
+x = 8
+y = 3
+while y <= 16:
+    x += 1
+    y += 2
+
+print(x)
+print(y)
+
 # Ejercicio 2 
 # ¿Qué aparece en la pantalla si se ejecuta el siguiente código de Python?:
 
@@ -16,17 +28,3 @@ while s > 2 or r % 2 == 0:
     s -= 2
 
 print(str(d) + " " + str(r) + " " + str(s))
-
-# Ejercicio 1 
-# ¿Qué aparece en la pantalla si se ejecuta el siguiente código de Python?:
-'''
-x = 8
-y = 3
-while y <= 16:
-    x += 1
-    y += 2
-
-print(x)
-print(y)
-
-'''
