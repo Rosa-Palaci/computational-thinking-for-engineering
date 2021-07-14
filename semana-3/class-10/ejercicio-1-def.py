@@ -65,13 +65,13 @@ def main() :
     dos(p,q)
 
 main()
-
+'''
 
 #Ejercicio 5
 #¿Qué aparece en la pantalla si se ejecuta el siguiente código de Python?:
 def tres(x, y):
     x = 3
-    y = 6
+    y = 90
 
 def main() :
     p = 10
@@ -81,10 +81,11 @@ def main() :
 
 main()
 
-'''
+
 
 #Ejercicio 6
 #¿Qué aparece en la pantalla si se ejecuta el siguiente código de Python?:
+'''
 def calculo(x, y):
     z = x + y
     return z
@@ -97,3 +98,4 @@ def main():
     print(r)
 
 main()
+'''
