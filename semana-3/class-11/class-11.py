@@ -11,6 +11,8 @@ def dividir(num, den):
         return math.nan
     else:
         return num/den
+
+#con listas con vector def num
 #Se necesita repetir 3 veces (se puede usar un ciclofor)
 for veces in range(3):
     num1 = float(input('Teclea el numerador: '))
