@@ -11,8 +11,9 @@ def dividir(num, den):
         return math.nan
     else:
         return num/den
-#Se necesita repetir 3 veces (se puede usar un ciclo5)
-num1 = float(input('Teclea el numerador: '))
-den1 = float(input('Teclea el denominador: '))
-div1 = dividir(num1, den1)
-print(f'{num1}/{den1} = {div1}\n')
+#Se necesita repetir 3 veces (se puede usar un ciclofor)
+for veces in range(3):
+    num1 = float(input('Teclea el numerador: '))
+    den1 = float(input('Teclea el denominador: '))
+    div1 = dividir(num1, den1)
+    print(f'{num1}/{den1} = {div1}\n')
