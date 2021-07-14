@@ -1,5 +1,9 @@
 #INSTRUCCIONES:
-# 
+# Define una función que recibe tres números 
+# enteros y regresa los número ordenados de 
+# menor a mayor. 
+
+# Haz la prueba con dos tercias de números
 def orden_asc(a, b, c):
     if a > b and a > c:
         mayor = a
@@ -31,6 +35,6 @@ for veces in range(2):
     a = int(input('Introduce el número 1: '))
     b = int(input('Introduce el número 2: '))
     c = int(input('Introduce el número 3: '))
-    #menor, medio, mayor = orden_asc(a, b, c)
+    menor, medio, mayor = orden_asc(a, b, c)
     #print(f'Los números sin ordenar son: {a}, {b} y {c}\n')
     print(f'Los números en orden ascendente son: {menor}, {medio}, {mayor}')
