@@ -7,12 +7,7 @@
 # que más admires. Imprime cada elemento de la 
 # lista mediante un ciclo for.
 
+listaAdmira = ['Cristian Omar','Audrey Hepburn', 'Marilyn Monroe', 'Grace Hopper','Hedy Lamarr']
 
-def imprimeLista(lista):
-    for elemento in listaElementos:
-        for elemento in lista:
-            print(elemento, end =' ')
-            print()
-
-listaElementos = [20, 'Palabra', 'x´, -12.35, 2*3 +1)]
-litaLibros = ['Azteca', "Crimen y Castigo"]
+for lista in listaAdmira:
+    print(lista)
