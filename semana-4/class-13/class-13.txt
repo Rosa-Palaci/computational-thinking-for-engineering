@@ -1,4 +1,16 @@
 Checar proyecto
+{
+ Función para agragar
+ elementos 
+ a una Listas
+
+ lista.append(valor)
+[]
+[8]
+[8,6]
+[8,6,1]
+}
+
 Listas dentro de Listas
 que pasa con las respuesta
 

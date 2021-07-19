@@ -1,4 +1,11 @@
-#
+#Actividad en clase - Datos Estructurados - Listas
+#Rosa Vanessa Palacios Beltran
+#A01652612
+
+# Ejercicio 1
+# Crea una lista con el nombre de 5 personas 
+# que más admires. Imprime cada elemento de la 
+# lista mediante un ciclo for.
 
 califs = [100, 90, 45, 67, 12, 99, 80, 40, 60, 100]
 nueva_calif = []
