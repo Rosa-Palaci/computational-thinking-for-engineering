@@ -1,18 +1,13 @@
-#Actividad en clase - Datos Estructurados - Listas
-#Rosa Vanessa Palacios Beltran
-#A01652612
-
-# Ejercicio 1
-# Crea una lista con el nombre de 5 personas 
-# que más admires. Imprime cada elemento de la 
-# lista mediante un ciclo for.
-
+# Define una función que reciba una lista e imprima cada elemento, separado por un espacio.
+# Crea dos listas e imprimelas con tu función.
 
 def imprimeLista(lista):
-    for elemento in listaElementos:
-        for elemento in lista:
-            print(elemento, end =' ')
-            print()
+    for elemento in lista:
+        print(elemento, end =' ')
+    print()
 
-listaElementos = [20, 'Palabra', 'x´, -12.35, 2*3 +1)]
-litaLibros = ['Azteca', "Crimen y Castigo"]
+listaElementos = [20, 'Palabra', 'x', -12.35, 2*3 + 1]
+listaLibros = ['Azteca', "Crimen y Castigo"]
+
+imprimeLista(listaElementos)
+imprimeLista(listaLibros)
