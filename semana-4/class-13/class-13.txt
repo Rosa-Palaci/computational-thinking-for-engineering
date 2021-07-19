@@ -11,6 +11,19 @@ Checar proyecto
 [8,6,1]
 }
 
+{
+    [#] longitud de la lista: 6
+    -6 -5 -4 -3 -2 -1
+    [6,8,7,3,2,10]
+     0 1 2 3 4 5
+     6-1
+
+    long de la lista: 3
+    [6,2,8]
+     0 1 2
+     3-1
+}
+
 Listas dentro de Listas
 que pasa con las respuesta
 

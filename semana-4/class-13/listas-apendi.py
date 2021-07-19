@@ -1,5 +1,5 @@
 #Pide al usuario 6 números y guárdalos en una 
-# lista. Al final, imprimelos.
+#lista. Al final, imprimelos.
 
 def imprimeLista(lista, simbolo):
     for elemento in lista:
