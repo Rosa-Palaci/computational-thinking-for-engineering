@@ -40,8 +40,8 @@ def delay_print(s):
         sys.stdout.flush()
         time.sleep(0.10)
     
-intro1 = str('\nA continuación tendrás que poner a prueba tus conocimiento y habilidades, contestando cuatro problemas matemáticos.')
-intro2 = str('Los resultados se mostrarán una vez finalizado y respondido los cuatro ejercicios.')
+intro1 = str('\nA continuación tendrás que poner a prueba tus conocimiento y habilidades, contestando problemas matemáticos de cuatro áreas.')
+intro2 = str('Los resultados se mostrarán una vez finalizado y respondido las cuatro áreas.')
 delay_print(f'{intro1}\n{intro2}')
 
 # Evalución 
@@ -51,27 +51,31 @@ def delay_print(s):
         sys.stdout.flush()
         time.sleep(0.10)
     
-evalua1 = str(f'\nCada ejercicio vale 25%')
-evalua2 = str(f'Necesitas el 70% para aprobar y validarás todos tus conocimientos\n')
+evalua1 = str(f'\nCada ejercicio vale 2 puntos')
+evalua2 = str(f'Necesitas el 70% para aprobar el área y seguir con la siguiente\n')
 delay_print(f'{evalua1}\n{evalua2}')
 # Codigo
-def calificador ():
-    if ejercicioCorrecto == 25:
-        pass
-    if resultado menor= 50:
-        print(f'{resultado} se requerirán 25 ejercicios para poder pasar el nivel')
-    if resultado mayor = 50 and menor que 70:
-        print('se requerirán 20 ejercicios')
-    if mayor= 70:
-        print('se requerirán 15 ejercicios')
+# def calificador ():
+    # if ejercicioCorrecto == 25:
+    #     pass
+    # if resultado menor= 50:
+    #     print(f'{resultado} se requerirán 25 ejercicios para poder pasar el nivel')
+    # if resultado mayor = 50 and menor que 70:
+    #     print('se requerirán 20 ejercicios')
+    # if mayor= 70:
+    #     print('se requerirán 15 ejercicios')
 
-'''
-Elegir area deseas
+#De un banco de preguntas algebraicas
+import random
 
-10 x area 
-imprimir resultados
+question1 = '¿Cuánto es 1 + 1?'
+question2 = '¿Cuál es la capital de Francia?'
+question3 = '¿Cuál es la raíz cuadrada de 43455435?'
 
-regresar los resultados y decir cual esta mal y bien
+banco_preguntas = [preg1, preg2, preg3]
 
-Si la respuesta está incorrecta, tendrá que volver a realizarlo. De lo contrario, podrá seguir con el siguiente ejercicio.
-'''
+#Elige una pregunta al azar del banco de preguntas.
+preg_azar = random.choice(banco_preguntas)
+
+#Imprimir la pregunta al azar
+print(preg_azar)
