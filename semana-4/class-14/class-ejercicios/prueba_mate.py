@@ -18,7 +18,19 @@ def genera_califica_pregunta(pregunta, respuesta_correcta):
         print('Incorrecto')
     
        
-
+answer1 = '5x + 6y'
+answer2 = 'P=2(L+A)'
+answer3 = 'B+OU'
+answer4 = 'v=24+(3b*3)' 
+answer5 = 'x=18'
+answer6 = 'x**3-(3x**2)-(10x)'
+answer7 = '<---- -13 punto cerrado   punto abierto----->' 
+answer8 = '<---- -4 punto cerrado to punto abierto 8 ------>'
+answer9 = '(3/4,9/8)'
+answer10 = '(3x**3)-(x**2)+5x-2'
+answer11 = '30'
+answer12 = '{2x raiz (3) - 3raiz(3x)} / {3x} ' 
+answer13 = '{18 raiz (8x**8 y**16)} / {xy**2} '
 #Preparando las preguntas con respuestas
 preg0Ar = '¿Cuánto es 1 + 1? \na)2  b)3  c)4' 
 resp0Ar = 'a'
