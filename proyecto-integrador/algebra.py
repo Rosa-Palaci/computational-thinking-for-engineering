@@ -277,10 +277,10 @@ else:
     print(f"Su tiempo para Álgebra fue de: {minutes}:{seconds}\n")
 
 if score_algebra == 13: # 100
-    print("Puntaje Prefecto🥳")
+    print("Puntaje Prefecto🥳\n")
 elif score_algebra >= 10.4 and score_algebra <= 11.7:
-    print("Muy bien, sigue practicando✨")
+    print("Muy bien, sigue practicando✨\n")
 elif score_algebra >= 7.8 and score_algebra <= 9.1:
-    print("Bien, tu puedes mejorar🦾")
+    print("Bien, tu puedes mejorar🦾\n")
 elif score_algebra >= 0 and score_algebra <= 6.5:
-    print("No te rindas, estudia un poco más🤓👻")
+    print("No te rindas, estudia un poco más🤓👻\n")

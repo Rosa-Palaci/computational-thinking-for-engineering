@@ -48,14 +48,14 @@ def pregunta_calif(pregunta,resp_cor,marcador):
         
         print('Correcto')
         marcador += 1
-        print(f"Tu puntaje actual es de {marcador}\n")
+        correcto = print(f"Tu puntaje actual es de {marcador}\n")
         return marcador
         
     else:
         print('Incorrecto\n')
-        print(f"Tu puntaje actual es de {marcador}\n")
+        incorrecto = print(f"Tu puntaje actual es de {marcador}\n")
         return marcador
-    
+puntaje_aritmetica = (f'Tu puntaje final de aritmetica {correcto}')
 #------------------------------------------------------------
 print("Preguntas de aritmetica")
 print("En las respuestas que se necesite, ¡SOLO AGREGA 2 DECIMALES!\nDe igual manera solo usa dos decimales en la raices\nSi es necesario tambien redondea tu segunda decimal\nPor ejemplo: si tu resultado es 3.358, redondea a 3.36\n")
