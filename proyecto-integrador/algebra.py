@@ -1,4 +1,4 @@
-from abc import abstractstaticmethod
+#from abc import abstractstaticmethod
 from random import choice
 import time
 from typing import final
@@ -64,7 +64,7 @@ questions ={1:"La suma de cinco veces X y seis veces Y es:",
 
 from pisa import nombre
 inicio = time.time() #toma la hora
-username = print(f'Comencemos {nombre}')
+username = print(f'{Fore.GREEN}Comencemos {nombre}')
 quest_random = ((list(questions.keys())))
 numeracion = 1
 
