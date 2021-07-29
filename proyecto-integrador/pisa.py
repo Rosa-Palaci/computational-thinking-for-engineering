@@ -54,7 +54,7 @@ def delay_print(s):
         time.sleep(float(f'{velocidad}'))
     
 evalua1 = str(f'\nCada ejercicio vale 2 puntos.')
-evalua2 = str(f'Necesitas el 70% para aprobar el área y seguir con la siguiente.\n')
+evalua2 = str(f'Necesitas el 70% para aprobar el área.\n')
 delay_print(f'{evalua1}\n{evalua2}')
 
 # Codigo - Menu
@@ -65,6 +65,7 @@ menu = f"""
 {Fore.MAGENTA} 2 - Álgebra
 {Fore.LIGHTGREEN_EX} 3 - Geometría
 {Fore.BLUE} 4 - Probabilidad y estadística
+{Fore.RED} 5 - Salir
 
 {Fore.RED}Elige una area:  
 """
@@ -73,21 +74,24 @@ opcion = input(menu)
 def area(area_elegida):
     if area_elegida == '1':
         print(f"{Fore.YELLOW}Empecemos con Aritmética")
-        from aritmetica import 
+        from aritmetica import aritmetica
 
     elif area_elegida == '2':
         print(f"{Fore.MAGENTA}Empecemos con Álgebra")
-        from algebra import area
+        from algebra import algebra
 
     elif area_elegida == '3':
         print(f"{Fore.MAGENTA}Empecemos co Geometría")
-        from geometria import 
+        from geometria import geometria
 
     elif area_elegida == '4':
         print(f"{Fore.BLUE}Empecemos con Probabilidad y estadística")
-        from probabilidad import 
+        from probabilidad import probabilidad
+
+    elif area_elegida == '5':
+        print(f"{Fore.LIGHTYELLOW_EX}Adios, regresa para seguir aprendiendo")
 
     else:
-        print(f'{Fore.RED}Ingresa una opción correcta por favor')
+        print(f'{Fore.RED}Ingresa una opción correcta por favor, ¡Exito en tu prueba!😎')
 
 area = area(opcion)
