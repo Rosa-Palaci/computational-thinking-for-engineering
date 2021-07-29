@@ -40,7 +40,7 @@ preguntas_arit =[pr_art1,pr_art2,pr_art3,pr_art4,pr_art5,pr_art6,pr_art7,pr_art8
 resp_arit =[r_art1,r_art2,r_art3,r_art4,r_art5,r_art6,r_art7,r_art8,r_art9,r_art10,r_art11,r_art12,r_art13]
 #----------------------------------------------------------------------------------------
 def pregunta_calif(pregunta,resp_cor,marcador):
-
+      
     print(pregunta)
     print(resp_cor)
     resp = float(input('Respuesta: '))
@@ -48,14 +48,14 @@ def pregunta_calif(pregunta,resp_cor,marcador):
         
         print('Correcto')
         marcador += 1
-        correcto = print(f"Tu puntaje actual es de {marcador}\n")
+        print(f"Tu puntaje actual es de {marcador}\n")
         return marcador
         
     else:
         print('Incorrecto\n')
-        incorrecto = print(f"Tu puntaje actual es de {marcador}\n")
+        print(f"Tu puntaje actual es de {marcador}\n")
         return marcador
-puntaje_aritmetica = (f'Tu puntaje final de aritmetica {correcto}')
+    
 #------------------------------------------------------------
 print("Preguntas de aritmetica")
 print("En las respuestas que se necesite, ¡SOLO AGREGA 2 DECIMALES!\nDe igual manera solo usa dos decimales en la raices\nSi es necesario tambien redondea tu segunda decimal\nPor ejemplo: si tu resultado es 3.358, redondea a 3.36\n")
@@ -69,3 +69,7 @@ for veces in range(13):
     marc=pregunta_calif(pregArt, resp_arit[indice_preg],marc)
     preguntas_arit.remove(pregArt)
     del resp_arit[indice_preg]
+        
+
+  
+
